@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empresa seria</title>
+    <script type="module" src="index.js"></script>
 </head>
+
 <body>
-    <form action="" method="post">
-        <h1>Insertar datos</h1>
-        <input type="text" name="nombre" placeholder="nombre del empleado">
-        <input type="number" name="edad" placeholder="edad">
-        <button type="submit">Insertar</button>
+    
+    <h1>Insertar datos</h1>
+    <form action="">
+        <input type="text" id="nombreEmpleado" placeholder="nombre del empleado">
+        <input type="number" id="edadEmpleado" placeholder="edad">
+        <button type="submit" onclick="insertarDatos()">Insertar</button>
     </form>
     <br>
+
+    <h1>Consultar datos</h1>
+    <input type="number" id="idEmpleado" placeholder="id empleado">
+    <button type="submit" onclick="consultarDatos()">Consultar</button>
+
     
-    <form action="" method="get">
-        <h1>Consultar datos</h1>
-        <input type="text" name="id" placeholder="id empleado">
-        <button type="submit">Consultar</button>
-    </form>
 </body>
+
 </html>
