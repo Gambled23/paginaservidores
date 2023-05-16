@@ -2,7 +2,7 @@
 // Verifica si se ha enviado el formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Conecta a la base de datos MySQL
-    $servername = "localhost";
+    $servername = "debian-servidor.gonzalezgiron.com";
     $username = "root";
     $password = "usuario";
     $database = "personas";
