@@ -1,6 +1,6 @@
 <?php
 // Conecta a la base de datos MySQL
-$servername = "localhost";
+$servername = "debian-servidor.gonzalezgiron.com";
 $username = "root";
 $password = "usuario";
 $database = "personas";
